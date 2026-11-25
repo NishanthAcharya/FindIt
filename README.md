@@ -2,6 +2,10 @@
 
 A simple React-based Lost & Found web application that helps students report lost belongings and find items reported by others on campus.
 
+## Run The Project
+
+To run https://nishanthacharya.github.io/FindIt/
+
 ## Features
 
 - Report lost or found items
