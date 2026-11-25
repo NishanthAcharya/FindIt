@@ -1,46 +1,83 @@
-# Itzfizz Digital - Web Development Internship Assignment
+# FindIt – Lost & Found Portal
 
-A scroll-driven hero section animation created for the Itzfizz Digital Web Development Internship assignment.
-
-
-## Technologies Used
-
-* HTML
-* CSS
-* JavaScript
-* React.js
-* GSAP
-* ScrollTrigger
-* Tailwind CSS
+A simple React-based Lost & Found web application that helps students report lost belongings and find items reported by others on campus.
 
 ## Features
 
-* Letter-spaced hero heading
-* Smooth heading entrance animation
-* Staggered statistics animation
-* Scroll-driven hero visual animation
-* Image movement, scaling and rotation based on scroll
-* Smooth scrolling interaction
-* Responsive layout
+- Report lost or found items
+- Upload item images
+- Categorize items
+- Filter items by category
+- Search items by name
+- View item location and contact number
+- Delete item reports
+- Save reports using LocalStorage
 
-## Project Structure
+## Preview
 
-```text
-src/
-├── assets/
-├── App.css
-├── App.jsx
-└── main.jsx
+![FindIt Preview](./Screenshot%202026-11-24%20220320.png)
+
+## Tech Stack
+
+- React JS
+- JavaScript
+- HTML
+- CSS
+- Vite
+- LocalStorage
+
+## How It Works
+
+Users can report lost or found items by entering details such as item name, category, status, location, date, description, mobile number, and image.
+
+Reported items are displayed as cards. Users can search for items, filter them by category, and delete reports.
+
+The application uses LocalStorage to save reports in the browser, so the data remains available after refreshing the page on the same browser.
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/FindIt.git
 ```
 
-## Assignment
+### 2. Navigate to the project folder
 
-This project was created as part of the Itzfizz Digital Web Development Internship assignment.
+```bash
+cd FindIt
+```
 
-The main objective was to create a modern hero section with smooth initial-load animations and scroll-based interactions using React and GSAP.
+### 3. Install dependencies
 
-## Developer
+```bash
+npm install
+```
 
-Nishanth Acharya
+### 4. Start the development server
 
-GitHub: https://github.com/NishanthAcharya
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal to use the application.
+
+## Limitations
+
+- Data is stored locally in the browser using LocalStorage.
+- Reports are not shared between different users or devices.
+- Clearing browser storage will remove saved reports.
+
+## Future Improvements
+
+- Shared database for reports
+- User authentication
+- Edit item reports
+- Detailed item view
+- Improved responsive design
+
+## Author
+
+**Nishanth P**
+
+GitHub: [NishanthAcharya](https://github.com/NishanthAcharya)
