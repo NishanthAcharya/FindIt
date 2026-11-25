@@ -19,7 +19,7 @@ To run https://nishanthacharya.github.io/FindIt/
 
 ## Preview
 
-![FindIt Preview](./Screenshot%202026-11-24%20220320.png)
+![FindIt Preview](./src/Screenshot%202026-11-24%20220320.png)
 
 ## Tech Stack
 
